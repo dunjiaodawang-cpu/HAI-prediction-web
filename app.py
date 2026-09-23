@@ -15,7 +15,7 @@ st.set_page_config(
     layout="wide",
 )
 
-DATA_ROOT = Path(r"D:\研究生学习\小论文写作\小论文数据\医院获得性")
+DATA_ROOT = Path(__file__).resolve().parent
 
 MODEL_CONFIG = {
     "Model 1": {

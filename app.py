@@ -21,7 +21,7 @@ MODEL_CONFIG = {
     "Model 1": {
         "title": "Model 1: Gram-Negative Infection Prediction",
         "outcome_label": "Predicted probability of Gram-negative infection",
-        "directory": DATA_ROOT / "1" / "Final_Models",
+        "directory": DATA_ROOT / "M1" / "Final_Models",
         "prefix": "XGB",
         "fields": [
             ("WBC0", "White blood cell count on Day 0", "x10^9/L", 0.1),
@@ -35,7 +35,7 @@ MODEL_CONFIG = {
     "Model 2": {
         "title": "Model 2: Drug-Resistant Organism Infection Prediction",
         "outcome_label": "Predicted probability of drug-resistant organism infection",
-        "directory": DATA_ROOT / "2" / "Final_Models",
+        "directory": DATA_ROOT / "M2" / "Final_Models",
         "prefix": "RF",
         "fields": [
             ("Mechanical Ventilation", "Mechanical ventilation duration", "0 = none; 1 = 24-72 h; 2 = >72 h", 1, "ventilation"),
@@ -57,7 +57,7 @@ MODEL_CONFIG = {
     "Model 3": {
         "title": "Model 3: CRO Infection Prediction",
         "outcome_label": "Predicted probability of CRO infection",
-        "directory": DATA_ROOT / "3" / "Final_Models",
+        "directory": DATA_ROOT / "M3" / "Final_Models",
         "prefix": "RF",
         "fields": [
             ("Mechanical Ventilation", "Mechanical ventilation duration", "0 = none; 1 = 24-72 h; 2 = >72 h", 1, "ventilation"),
